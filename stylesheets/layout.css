@@ -1,0 +1,329 @@
+body {
+    background-color: #222222;
+    font-family: "Prata";
+    color: white;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.first_block,
+.second_block {
+    margin-right: 1.5vw;
+}
+
+.logo_text {
+    font-family: "Prata";
+    font-size: clamp(0.688rem, 0.375rem + 1.56vw, 2.25rem);
+    margin-right: 10.67vw;
+}
+
+header {
+    display: flex;
+    margin-left: 8.3vw;
+    position: sticky;
+    top: 2.3vw;
+    width: 42vw;
+    height: 1.8vw;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    z-index: 3;
+    align-items: center;
+}
+
+nav {
+    font-size: clamp(0.5rem, 0.4rem + 0.5vw, 1rem);
+    display: flex;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav_header a {
+    font-family: "ArialItalic";
+}
+
+
+.first_screen {
+    font-family: "Prata";
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_image {
+    width: 35vw;
+    height: 52.6vw;
+    background-image: url(../img/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -2.3vw;
+}
+
+.text_block_main {
+    margin-left: 8.3vw;
+    margin-top: 15vw;
+}
+
+.main_text_banner {
+    font-size: clamp(1.5rem, 0.8rem + 3.5vw, 5rem);
+}
+
+.second_text_banner {
+    margin-top: 1vw;
+    font-size: clamp(1rem, 0.575rem + 2.13vw, 3.125rem);
+}
+
+.list {
+    margin-top: 2vw;
+}
+
+.checkbox img {
+    width: 2vw;
+    height: 1.9vw;
+}
+
+.checkbox {
+    margin-right: 0.3vw;
+}
+
+.list_line {
+    display: flex;
+    align-items: center;
+    margin-top: 1vw;
+}
+
+.button_first_screen {
+    margin-top: 2vw;
+    font-family: "Arial";
+    font-size: clamp(0.5rem, 0.3rem + 1vw, 1.5rem);
+    width: 9vw;
+    height: 4vw;
+    border-radius: 0.2vw;
+    cursor: pointer;
+    /* transition: all 0.3s ease; */
+    border: 0;
+}
+
+.second_screen {
+    margin-top: 5.2vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_second {
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.line_of_text {
+    display: flex;
+    align-items: center;
+    font-family: "Arial";
+    font-size: clamp(0.563rem, 0.375rem + 0.94vw, 1.5rem);
+    line-height: 1.4;
+}
+
+.line_of_text img {
+    width: 3vw;
+    height: 2.4vw;
+    margin-right: 1vw;
+}
+
+.left_img_secondscr {
+    width: 32.4vw;
+    height: 37.7vw;
+    background-image: url(../img/secondscr_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 2.8vw;
+}
+
+.right_img_secondscr {
+    width: 32.4vw;
+    height: 37.7vw;
+    background-image: url(../img/secondscr_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 2.8vw;
+}
+
+.button_second_screen {
+    cursor: pointer;
+    width: 32vw;
+    height: 4vw;
+    font-family: "Arial";
+    font-size: clamp(0.5rem, 0.35rem + 0.75vw, 1.25rem);
+    border-radius: 0.2vw;
+    border: 0;
+    margin-top: 4.2vw;
+}
+
+hr {
+    width: 32vw;
+    margin: 0.7vw 0 0.7vw 0;
+}
+
+.third_screen {
+    margin-top: 5.2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 83.18vw;
+    height: 32.7vw;
+    border-radius: 1vw;
+    background-color: white;
+    background-image: url(../img/form_img_1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.text_in_form p {
+    font-family: "Prata";
+    color: #38535D;
+    font-size: clamp(1.094rem, 0.638rem + 2.28vw, 3.375rem);
+    margin-top: 3.75vw;
+    margin-left: 7vw;
+}
+
+input {
+    width: 40.7vw;
+    height: 3.4vw;
+}
+
+.form_сontainer {
+    margin-top: 2.34vw;
+    margin-left: 7vw;
+}
+
+.form_email {
+    margin-top: 0.7vw;
+}
+
+.form_checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 1vw;
+    border-radius: 1vw;
+}
+
+.form_checkbox input {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.form_checkbox p {
+    font-family: "Arial";
+    color: #55565A;
+    font-size: clamp(0.313rem, 0.137rem + 0.88vw, 1.188rem);
+    margin-left: 0.3vw;
+}
+
+.form_button {
+    background-color: #282829;
+    width: 40.7vw;
+    height: 5.2vw;
+    margin-top: 1.35vw;
+}
+
+.form_button p {
+    color: white;
+    font-family: "Arial";
+    font-size: clamp(0.375rem, 0.15rem + 1.13vw, 1.5rem);
+}
+
+.woman_img {
+    position: absolute;
+    top: 93.65vw;
+    right: 13.17vw;
+}
+
+.woman_img img {
+    width: 31.2vw;
+    height: 39.5vw;
+}
+
+.nav_footer {
+    margin-top: 5.2vw;
+    height: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_footer a {
+    font-family: "ArialItalic";
+}
+
+.line {
+    width: 100vw;
+    height: 2px;
+    background-image: url(../img/line.svg);
+}
+
+.nav_text {
+    display: flex;
+}
+
+footer {
+    margin: 3.5vw 8.3vw 2.7vw 8.3vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column_footer {
+    height: 5.34vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bottom_text_footer {
+    font-family: "Arial";
+    font-size: clamp(0.375rem, 0.2rem + 0.88vw, 1.25rem);
+    color: #D5C9BE;
+}
+
+.bottom_text_footer:first {
+    color: #FFF;
+}
+
+.footer_button {
+    font-family: "ArialItalic";
+    font-size: clamp(0.5rem, 0.3rem + 1vw, 1.5rem);
+    width: 9.4vw;
+    height: 4vw;
+    border-radius: 0.2vw;
+    cursor: pointer;
+    /* transition: all 0.3s ease; */
+    border: 0;
+}
+
+.social_media img {
+    width: 1.6vw;
+    height: 1.6vw;
+    margin-left: 1.6vw;
+}
+
+.social_media img:first-child {
+    margin-left: 0;
+}
+
+.column_2 {
+    align-items: center;
+    margin-left: -11vw;
+}
+
+.column_3 {
+    align-items: flex-end;
+}
