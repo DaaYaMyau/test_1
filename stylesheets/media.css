@@ -1,0 +1,191 @@
+@media (max-width: 768px) {
+    header {
+        margin-left: 3vw;
+        width: 52vw;
+    }
+
+    .text_block_main {
+        margin-left: 3vw;
+        margin-top: 10vw;
+    }
+
+    .button_second_screen {
+        margin-top: 2.2vw;
+    }
+
+    .line_of_text {
+        padding-top: 0.2vw;
+        padding-bottom: 0.2vw;
+    }
+
+    .text_in_form p {
+        margin-top: 3vw;
+        margin-left: 4vw;
+    }
+
+    .form_сontainer {
+        margin-top: 2vw;
+        margin-left: 4vw;
+    }
+
+    .footer_button {
+        width: 8.4vw;
+        height: 3vw;
+    }
+}
+
+@media (max-width: 415px) {
+    header {
+        width: 100vw;
+        margin-left: 5vw;
+    }
+
+    .first_screen {
+        flex-direction: column;
+    }
+
+    .text_block_main {
+        margin-left: 5vw;
+        margin-top: 7vw;
+    }
+
+    .banner_image {
+        width: 100vw;
+        height: 48.6vw;
+        background-image: url(../img/banner.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0% 93%;
+        margin-top: 2vw;
+    }
+
+    .button_first_screen {
+        width: 11vw;
+        height: 5vw;
+    }
+
+    .second_screen {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left_img_secondscr {
+        display: none;
+    }
+
+    .text_second {
+        width: 55vw;
+    }
+
+    hr {
+        width: 55vw;
+    }
+
+    .button_second_screen {
+        width: 55vw;
+        height: 7vw;
+        margin-top: 4.2vw;
+    }
+
+    .line_of_text img {
+        width: 5vw;
+        height: 4.4vw;
+        margin-right: 2vw;
+    }
+
+    .right_img_secondscr {
+        width: 100vw;
+        height: 48.6vw;
+        margin-top: 3vw;
+        margin-left: 0;
+        background-position: 0% 83%;
+    }
+
+    .woman_img {
+        top: 194vw;
+        right: 9.17vw;
+    } 
+
+    .form_desktop {
+        display: none;
+    }
+
+    .form_mobile {
+        display: inline-block;
+    }
+
+    .form {
+        background-position: 140% 0%;
+    }
+
+    input {
+        width: 44.7vw;
+        height: 4.4vw;
+    }
+
+    .text_in_form p {
+        margin-top: 2vw;
+    }
+
+    .form_checkbox {
+        margin-top: 0.4vw;
+    }
+
+    .form_checkbox input {
+        width: 3vw;
+        height: 3vw;
+        margin: 0;
+    }    
+
+    .form_checkbox p {
+        margin-left: 0.7vw;
+    } 
+
+    .footer_button {
+        width: 10.4vw;
+    }
+
+    .social_media img {
+        width: 2vw;
+        height: 2vw;
+        margin-left: 2vw;
+    }
+
+    .social_media {
+        margin-top: -1vw;
+    }
+}
+
+@media (max-width: 376px) {
+    .woman_img {
+        top: 197vw;
+    } 
+
+    input {
+        height: 3.4vw;
+    }
+
+    .form_сontainer {
+        margin-top: 1.5vw;
+    }
+}
+
+@media (max-width: 360px) {
+    .woman_img {
+        top: 201vw;
+    } 
+
+    .social_media {
+        margin-top: -2vw;
+    }
+}
+
+@media (max-width: 320px) {
+    .woman_img {
+        top: 209vw;
+    }
+
+    input {
+        height: 3vw;
+    }
+}

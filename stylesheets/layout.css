@@ -1,6 +1,6 @@
 body {
     background-color: #222222;
-    font-family: "Prata";
+    /* font-family: "Prata"; */
     color: white;
     width: 100vw;
     overflow-x: hidden;
@@ -68,19 +68,19 @@ a {
 }
 
 .main_text_banner {
-    font-size: clamp(1.5rem, 0.8rem + 3.5vw, 5rem);
+    font-size: clamp(1.375rem, 0.65rem + 3.62vw, 5rem);
 }
 
 .second_text_banner {
     margin-top: 1vw;
-    font-size: clamp(1rem, 0.575rem + 2.13vw, 3.125rem);
+    font-size: clamp(0.875rem, 0.425rem + 2.25vw, 3.125rem);
 }
 
 .list {
     margin-top: 2vw;
 }
 
-.checkbox img {
+.checkbox {
     width: 2vw;
     height: 1.9vw;
 }
@@ -93,6 +93,7 @@ a {
     display: flex;
     align-items: center;
     margin-top: 1vw;
+    font-size: clamp(0.438rem, 0.225rem + 1.06vw, 1.5rem);
 }
 
 .button_first_screen {
@@ -105,6 +106,9 @@ a {
     cursor: pointer;
     /* transition: all 0.3s ease; */
     border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .second_screen {
@@ -124,8 +128,10 @@ a {
     display: flex;
     align-items: center;
     font-family: "Arial";
-    font-size: clamp(0.563rem, 0.375rem + 0.94vw, 1.5rem);
+    font-size: clamp(0.5rem, 0.313rem + 0.94vw, 1.438rem);
     line-height: 1.4;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
 }
 
 .line_of_text img {
@@ -163,6 +169,9 @@ a {
     border-radius: 0.2vw;
     border: 0;
     margin-top: 4.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 hr {
@@ -190,9 +199,13 @@ hr {
 .text_in_form p {
     font-family: "Prata";
     color: #38535D;
-    font-size: clamp(1.094rem, 0.638rem + 2.28vw, 3.375rem);
+    font-size: clamp(1.063rem, 0.6rem + 2.31vw, 3.375rem);
     margin-top: 3.75vw;
     margin-left: 7vw;
+}
+
+.form_mobile {
+    display: none;
 }
 
 input {
@@ -224,7 +237,7 @@ input {
 .form_checkbox p {
     font-family: "Arial";
     color: #55565A;
-    font-size: clamp(0.313rem, 0.137rem + 0.88vw, 1.188rem);
+    font-size: clamp(0.438rem, 0.288rem + 0.75vw, 1.188rem);
     margin-left: 0.3vw;
 }
 
@@ -233,6 +246,9 @@ input {
     width: 40.7vw;
     height: 5.2vw;
     margin-top: 1.35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .form_button p {
@@ -294,19 +310,18 @@ footer {
     color: #D5C9BE;
 }
 
-.bottom_text_footer:first {
-    color: #FFF;
-}
-
 .footer_button {
     font-family: "ArialItalic";
-    font-size: clamp(0.5rem, 0.3rem + 1vw, 1.5rem);
+    font-size: clamp(0.4rem, 0.3rem + 1vw, 1.5rem);
     width: 9.4vw;
     height: 4vw;
     border-radius: 0.2vw;
     cursor: pointer;
     /* transition: all 0.3s ease; */
     border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social_media img {
